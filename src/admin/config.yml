@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: maciej790/gridsome_blog_test
-  branch: master
+  branch: main
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
