@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your_name/repo_name
+  repo: maciej790/gridsome_blog_test
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
