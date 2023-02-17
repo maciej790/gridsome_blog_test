@@ -18,11 +18,24 @@ module.exports = {
           //Config options can be added here
         }
       }
-    }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`,
+        modulePath: `src/admin/index.js`
+      }
+    },
   ],
   transformers: {
     remark: {
       //Config options can be added here
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
     }
   }
 
