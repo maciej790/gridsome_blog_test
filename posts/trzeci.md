@@ -1,12 +1,15 @@
 ---
-title: Archived Post Example
+excerpt: aaaa
 path: /archived
-date: 2021-10-18
 summary: Archived Post Example - Just add is_archived true to your markdown post.
-tags: ["archived"]
-categories: ["archived"]
 thumbnail: ./archived.png
+date: 2021-10-18
 is_archived: true
+title: Archived aaaa
+tags:
+  - archived
+categories:
+  - archived
 sidebar: Alternative
 ---
 
