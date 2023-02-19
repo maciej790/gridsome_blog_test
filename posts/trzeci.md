@@ -12,12 +12,17 @@ categories:
   - archived
 sidebar: Alternative
 ---
-
 ## How to Archive Post
 
 To archive a post add `is_archived: true` to your markdown post. This will add div block
 on top of the archived post with title and text. To change the default archive title and text add following
-key to the .env file
+
+f
+
+![](/uploads/bez-tytułu.png)
+
+
+key to the .env filef
 
 ```dotenv
 ARCHIVE_TITLE='ARCHIVED POST'
