@@ -17,7 +17,17 @@ module.exports = {
         remark: {
           //Config options can be added here
         }
-      }
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'products/**/*.md',
+        typeName: 'Product',
+        remark: {
+          //Config options can be added here
+        }
+      },
     },
     {
       use: `gridsome-plugin-netlify-cms`,
