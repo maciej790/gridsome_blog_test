@@ -30,6 +30,7 @@
         :key="edge.node.id"
       >
         <h2>{{ edge.node.title }}</h2>
+        <g-image v-if="edge.node.image" :src="edge.node.image" class="x" />
       </div>
     </div>
   </Layout>
@@ -42,6 +43,7 @@
         node {
           id
           title
+          image
         }
       }
     }
@@ -79,5 +81,10 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.x {
+  width: 100px;
+  height: 100px;
 }
 </style>
